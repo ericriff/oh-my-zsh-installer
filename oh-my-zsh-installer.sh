@@ -19,3 +19,6 @@ echo "+ Set agnoster theme [and install powerline fonts]"
 sudo apt-get install fonts-powerline 
 sed -i 's~ZSH_THEME="robbyrussell"~ZSH_THEME="agnoster"~1' ~/.zshrc
 
+# Make sure that ZSH is the default shell
+echo "+ Set ZSH as default shell. Log out and then back in for this change to take effect"
+chsh -s $(which zsh)
