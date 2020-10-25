@@ -7,7 +7,7 @@ sudo apt-get install -y zsh
 
 # Install oh-my-zsh
 echo "+ Install oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+yes | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install autosuggestions plugin
 echo "+ Install sutossugestions plug-in"
