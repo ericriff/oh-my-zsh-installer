@@ -20,7 +20,7 @@ sudo apt-get install fonts-powerline
 sed -i 's~ZSH_THEME="robbyrussell"~ZSH_THEME="agnoster"~1' ~/.zshrc
 
 # Make sure that ZSH is the default shell
-echo "+ Seting ZSH as the default shell doesn't work from within the script"
-echo "Please manually run sudo chsh -s $(which zsh)"
-echo "Log out and then back in for these changes to take place"
+echo "+ Seting ZSH as the default shell"
+sudo usermod -s $(which zsh) $(whoami)
 
+echo "+ Please log out and back in to finish config'
