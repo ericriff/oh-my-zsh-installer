@@ -3,5 +3,5 @@ Handy script to install zsh, oh-my-zsh and the autosuggestions plug-in. This scr
 
 ## Usage
 ```bash
-$ curl -sSL https://raw.githubusercontent.com/ericriff/oh-my-zsh-installer/master/oh-my-zsh-installer.sh | bash -
+curl -sSL https://raw.githubusercontent.com/ericriff/oh-my-zsh-installer/master/oh-my-zsh-installer.sh | bash -
 ```
