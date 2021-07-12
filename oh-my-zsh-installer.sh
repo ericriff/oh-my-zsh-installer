@@ -23,4 +23,4 @@ sed -i 's~ZSH_THEME="robbyrussell"~ZSH_THEME="agnoster"~1' ~/.zshrc
 echo "+ Seting ZSH as the default shell"
 sudo usermod -s $(which zsh) $(whoami)
 
-echo "+ Please log out and back in to finish config'
+echo "+ Please log out and back in to finish config"
