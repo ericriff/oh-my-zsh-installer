@@ -9,6 +9,10 @@ sudo apt-get install -y zsh
 echo "+ Install oh-my-zsh"
 yes | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Install git
+# TODO remove this and pull the tarball of zsh-autosuggestions instead
+sudo apt-get install -y git
+
 # Install autosuggestions plugin
 echo "+ Install sutossugestions plug-in"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
