@@ -19,7 +19,7 @@ sed -i 's~plugins=(~plugins=(zsh-autosuggestions ~1' ~/.zshrc
 
 # Set agnoster theme
 echo "+ Set agnoster theme [and install powerline fonts]"
-sudo apt-get install fonts-powerline 
+sudo apt-get install -y fonts-powerline 
 sed -i 's~ZSH_THEME="robbyrussell"~ZSH_THEME="agnoster"~1' ~/.zshrc
 
 # Make sure that ZSH is the default shell
